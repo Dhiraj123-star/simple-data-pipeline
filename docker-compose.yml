@@ -1,0 +1,7 @@
+
+services:
+  data-pipeline:
+    build: .
+    container_name: simple_pipeline_container
+    volumes:
+      - ./data:/data
